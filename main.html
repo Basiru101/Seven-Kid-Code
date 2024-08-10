@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Main Page</h2>
+    <button id="openModalBtn">New Post</button>
+    <div id="postsContainer"></div>
+
+    <!-- Modal -->
+    <div id="newPostModal" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <h2>New Post</h2>
+            <form id="newPostForm">
+                <!-- <label for="postTitle">Title:</label> -->
+                <input type="text" id="postTitle" placeholder="Title:" required><br><br>
+                <!-- <label for="postContent">Content:</label> -->
+                <textarea id="postContent" placeholder="Content" required></textarea><br><br>
+                <!-- <label for="postImage">Image:</label> -->
+                <input type="file" id="postImage"><br><br>
+                <button class="button1" type="submit">Submit Post</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
