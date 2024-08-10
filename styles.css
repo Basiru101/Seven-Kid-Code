@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    background-image: url(/image2.avif);
 }
 
 h2 {
@@ -16,7 +17,7 @@ h2 {
 form {
     max-width: 350px;
     margin: 10px auto;
-    /* padding: 15px; */
+    padding: 15px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -90,8 +91,7 @@ button:hover {
 .modal-content {
     background-color: #fff;
     margin: 5% auto;
-    border: 1px solid #333;
-    border: none;
+    padding: 20px;
     border-radius: 8px;
     width: 80%;
     max-width: 500px;
@@ -122,7 +122,7 @@ button:hover {
 .post {
     background-color: #fff;
     margin: 10px;
-    /* padding: 15px; */
+    padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -146,6 +146,7 @@ button:hover {
     background-color: #fff;
     margin: 5% auto;
     padding: 20px;
+    padding-bottom: 40px; /* Added padding at the bottom */
     border-radius: 8px;
     width: 80%;
     max-width: 500px;
@@ -185,7 +186,7 @@ textarea {
 }
 
 button.button1 {
-    background-color: #4481eb;
+    background-color: #4481eb; /* Updated background color */
     color: white;
     padding: 10px;
     border: none;
@@ -194,7 +195,7 @@ button.button1 {
     font-size: 16px;
     display: block;
     width: calc(100% - 40px); /* Adjust width to not touch the margin */
-    margin: 20px auto 0 auto;
+    margin: 10px auto; /* Margin on top and bottom to avoid overlap */
     transition: background-color 0.3s ease;
 }
 
