@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-image: url(/image2.avif);
 }
 
 h2 {
@@ -17,7 +16,7 @@ h2 {
 form {
     max-width: 350px;
     margin: 10px auto;
-    padding: 15px;
+    padding: 19px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -44,7 +43,7 @@ input[type="email"]:focus,
 input[type="password"]:focus,
 textarea:focus {
     outline: none;
-    border-color: #4481eb;
+    border-color: #4CAF50;
     box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
 }
 
@@ -58,7 +57,7 @@ textarea:focus {
 
 button {
     background-color: #4481eb;
-    color: #ffff;
+    color: white;
     padding: 10px;
     border: none;
     border-radius: 6px;
@@ -91,7 +90,8 @@ button:hover {
 .modal-content {
     background-color: #fff;
     margin: 5% auto;
-    padding: 20px;
+    border: 1px solid #333;
+    border: none;
     border-radius: 8px;
     width: 80%;
     max-width: 500px;
@@ -138,67 +138,4 @@ button:hover {
 
 #postImage {
     margin-left: 15%;
-}
-
-
-/* Styling for the New Post Modal and Form */
-.modal-content {
-    background-color: #fff;
-    margin: 5% auto;
-    padding: 20px;
-    padding-bottom: 40px; /* Added padding at the bottom */
-    border-radius: 8px;
-    width: 80%;
-    max-width: 500px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-input[type="text"],
-textarea,
-input[type="file"] {
-    width: calc(100% - 40px); /* 100% minus padding */
-    padding: 10px;
-    margin: 8px 0;
-    margin-left: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-sizing: border-box;
-    font-size: 14px;
-    color: #555;
-    transition: all 0.3s ease;
-}
-
-input[type="text"]:focus,
-textarea:focus,
-input[type="file"]:focus {
-    outline: none;
-    border-color: #4CAF50;
-    box-shadow: 0 0 8px rgba(76, 175, 80, 0.3);
-}
-
-textarea {
-    resize: vertical;
-    min-height: 100px;
-}
-
-#postImage {
-    margin-left: 20px;
-}
-
-button.button1 {
-    background-color: #4481eb; /* Updated background color */
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    display: block;
-    width: calc(100% - 40px); /* Adjust width to not touch the margin */
-    margin: 10px auto; /* Margin on top and bottom to avoid overlap */
-    transition: background-color 0.3s ease;
-}
-
-button.button1:hover {
-    background-color: #4481eb;
 }
